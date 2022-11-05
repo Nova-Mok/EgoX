@@ -106,9 +106,9 @@ const Auctions_categories = () => {
 											</Link>
 											<span className="dark:border-jacarta-600 border-jacarta-100 flex items-center whitespace-nowrap rounded-md border py-1 px-2">
 												<span>
-													<Tippy content={<span className="py-1 px-2 block">ETH</span>}>
+													<Tippy content={<span className="py-1 px-2 block">AVAX</span>}>
 														<svg className="h-4 w-4">
-															<use xlinkHref="/icons.svg#icon-ETH"></use>
+															<use xlinkHref="/avaxicon.svg#avax-icono"></use>
 														</svg>
 													</Tippy>
 												</span>

@@ -18,7 +18,7 @@ const Home_3 = () => {
 
 	return (
 		<>
-			<Meta title="Home 3 || EgoX | NFT Marketplace" />
+			<Meta title="EgoX | NFT Marketplace" />
 			<Hero_3 />
 			<Browse_category />
 			<Bids classes="dark:bg-jacarta-800 relative py-24" bgWhite={true} />

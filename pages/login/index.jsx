@@ -10,8 +10,8 @@ const Login = () => {
   const tabItem = [
     {
       id: 1,
-      text: "Ethereum",
-      icon: "ETH",
+      text: "Avalanche",
+      icon: "AVAX",
     },
     {
       id: 2,

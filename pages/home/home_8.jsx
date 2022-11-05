@@ -28,7 +28,7 @@ const Home_8 = () => {
 
 	return (
 		<>
-			<Meta title="Home 8 || EgoX | NFT Marketplace" />
+			<Meta title=" EgoX | NFT Marketplace" />
 			<Hero_8 />
 			<Intro_video />
 			<Characters />

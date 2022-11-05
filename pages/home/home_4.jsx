@@ -13,7 +13,7 @@ import CoverflowCarousel from '../../components/carousel/coverflowCarousel';
 const Home_4 = () => {
 	return (
 		<>
-			<Meta title="Home 4 || EgoX | NFT Marketplace" />
+			<Meta title=" EgoX | NFT Marketplace" />
 			<Hero_4 />
 			<CoverflowCarousel />
 			<Top_collection />

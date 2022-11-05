@@ -11,7 +11,7 @@ import Meta from '../../components/Meta';
 const Home_1 = () => {
 	return (
 		<main>
-			<Meta title="Home 1 || EgoX | NFT Marketplace" />
+			<Meta title=" EgoX | NFT Marketplace" />
 			<Hero />
 			<Bids />
 			<Top_collection />

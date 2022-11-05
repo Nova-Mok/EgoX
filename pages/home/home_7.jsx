@@ -12,7 +12,7 @@ import Financialnews from '../../components/blog/financialnews';
 const Home_7 = () => {
 	return (
 		<>
-			<Meta title="Home 7 || EgoX | NFT Marketplace" />
+			<Meta title=" EgoX | NFT Marketplace" />
 			<Hero_7 />
 			<Partners />
 			<Services />

@@ -26,7 +26,7 @@ const hero = () => {
               Buy, sell and collect NFTs.
             </h1>
             <p className="dark:text-jacarta-200 mb-8 text-center text-lg md:text-left">
-              The worlds largest digital marketplace for crypto collectibles and
+              The digital marketplace for crypto collectibles and awesome
               non-fungible tokens
             </p>
             <div className="flex space-x-4">

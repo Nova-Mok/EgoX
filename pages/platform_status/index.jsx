@@ -44,7 +44,7 @@ const Platform_status = () => {
 								</div>
 								<div className="flex items-center justify-between py-4 px-5">
 									<span className="text-jacarta-700 font-medium dark:text-white">
-										Mobile Application
+										Application
 									</span>
 									<span className="text-orange-bright">Active Incident</span>
 								</div>
@@ -153,8 +153,8 @@ const Platform_status = () => {
 									</svg>
 									<span>Incident History</span>
 								</a>
-								<a href="https://deothemes.com" className="dark:text-jacarta-300 hover:text-blue">
-									Powered by DeoThemes
+								<a href="" className="dark:text-jacarta-300 hover:text-blue">
+									Powered by Nova
 								</a>
 							</div>
 						</div>

@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }) {
 
 	return (
 		<>
-			<Meta title="Home 1 || EgoX | NFT Marketplace" />
+			<Meta title=" EgoX | NFT Marketplace" />
 
 			<Provider store={store}>
 				<ThemeProvider enableSystem={true} attribute="class">

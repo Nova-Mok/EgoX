@@ -38,8 +38,8 @@ export const collectionDropdown2_data = [
 export const EthereumDropdown2_data = [
 	{
 		id: '0Ethereum',
-		text: 'Ethereum',
-		image: '/images/chains/ETH.png',
+		text: 'Avalanche',
+		image: '/images/chains/avax.png',
 	},
 	{
 		id: '1Flow',

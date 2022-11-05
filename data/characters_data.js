@@ -13,7 +13,7 @@ export const characters_data = [
 		title: 'Tractor Bowling',
 		img: '/images/nft-game/nft_game_character_2.png',
 		id: 2,
-		smallText1: 'Ether',
+		smallText1: 'Avax',
 		smallText2: 'Airpower',
 		icon1: 'Frame-2',
 		icon2: 'Frame-3',

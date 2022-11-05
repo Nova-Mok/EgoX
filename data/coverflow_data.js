@@ -36,7 +36,7 @@ export const coverflow_data = [
   },
   {
     img: "/images/products/item_13_lg.jpg",
-    title: "Etherium NFT Launching Lab",
+    title: " NFT Launching Lab",
     authorImage: "/images/avatars/avatar_18_rounded.gif",
     authorName: "051_Hart",
     id: "5Etherium NFT Launching Lab",
@@ -71,7 +71,7 @@ export const coverflow_data = [
   },
   {
     img: "/images/products/item_13_lg.jpg",
-    title: "Etherium NFT Launching Lab",
+    title: "Launching Lab",
     authorImage: "/images/avatars/avatar_18_rounded.gif",
     authorName: "051_Hart",
     id: "10Etherium NFT Launching Lab",
@@ -109,7 +109,7 @@ export const coverflow_data = [
 export const hero_5_data = [
   {
     img: "/images/products/item_16_2lg.jpg",
-    title: "Etherium NFT Launching Lab",
+    title: " NFT Lab",
     authorImage: "/images/avatars/avatar_18_rounded.gif",
     authorName: "051_Hart",
     id: "0Etherium NFT Launching Lab",

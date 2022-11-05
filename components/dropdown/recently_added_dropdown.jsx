@@ -479,8 +479,8 @@ const Recently_added_dropdown = ({ data, dropdownFor }) => {
 		const currencyData = [
 			{
 				id: 1,
-				image: '/images/chains/ETH.png',
-				text: 'ETH',
+				image: '/images/chains/avax.png',
+				text: 'AVAX',
 			},
 			{
 				id: 2,
@@ -530,11 +530,11 @@ const Recently_added_dropdown = ({ data, dropdownFor }) => {
 								>
 									<span className="font-display flex items-center">
 										<img
-											src="/images/chains/ETH.png"
-											alt="eth"
+											src="/images/chains/avax.png"
+											alt="AVAX"
 											className="mr-2 h-5 w-5 rounded-full"
 										/>
-										ETH
+										AVAX
 									</span>
 									<svg
 										xmlns="http://www.w3.org/2000/svg"

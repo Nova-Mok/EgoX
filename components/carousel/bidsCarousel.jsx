@@ -85,16 +85,16 @@ const BidsCarousel = () => {
                       </a>
                     </Link>
                     <span className="dark:border-jacarta-600 border-jacarta-100 flex items-center whitespace-nowrap rounded-md border py-1 px-2">
-                      <Tippy content={<span>ETH</span>}>
+                      <Tippy content={<span>AVAX</span>}>
                         <img
-                          src="/images/eth-icon.svg"
+                          src="/avaxicon.svg"
                           alt=""
-                          className="w-3 h-3 mr-1"
+                          className="w-4 h-5 mr-1"
                         />
                       </Tippy>
 
                       <span className="text-green text-sm font-medium tracking-tight">
-                        {eth_number} ETH
+                        {eth_number} AVAX
                       </span>
                     </span>
                   </div>
@@ -103,7 +103,7 @@ const BidsCarousel = () => {
                       Current Bid
                     </span>
                     <span className="dark:text-jacarta-100 text-jacarta-700">
-                      {bid_number} ETH
+                       {bid_number} AVAX
                     </span>
                   </div>
 

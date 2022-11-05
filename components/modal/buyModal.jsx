@@ -83,11 +83,11 @@ const BuyModal = () => {
 									<span className="mb-1 flex items-center whitespace-nowrap">
 										<span data-tippy-content="ETH">
 											<svg className="h-4 w-4">
-												<use xlinkHref="/icons.svg#icon-ETH"></use>
+												<use xlinkHref="/avaxicon.svg#avax-icono"></use>
 											</svg>
 										</span>
 										<span className="dark:text-jacarta-100 text-sm font-medium tracking-tight">
-											1.55 ETH
+											1.55 AVAX
 										</span>
 									</span>
 									<div className="dark:text-jacarta-300 text-right text-sm">$130.82</div>
@@ -103,10 +103,10 @@ const BuyModal = () => {
 									<span className="flex items-center whitespace-nowrap">
 										<span data-tippy-content="ETH">
 											<svg className="h-4 w-4">
-												<use xlinkHref="/icons.svg#icon-ETH"></use>
+												<use xlinkHref="/avaxicon.svg#avax-icono"></use>
 											</svg>
 										</span>
-										<span className="text-green font-medium tracking-tight">1.55 ETH</span>
+										<span className="text-green font-medium tracking-tight">1.55 AVAX</span>
 									</span>
 									<div className="dark:text-jacarta-300 text-right">$130.82</div>
 								</div>
@@ -120,7 +120,7 @@ const BuyModal = () => {
 									className="checked:bg-accent dark:bg-jacarta-600 text-accent border-jacarta-200 focus:ring-accent/20 dark:border-jacarta-500 h-5 w-5 self-start rounded focus:ring-offset-0"
 								/>
 								<label htmlFor="buyNowTerms" className="dark:text-jacarta-200 text-sm">
-									By checking this box, I agree to {"Xhibiter's"}{' '}
+									By checking this box, I agree to {"EgoX's"}{' '}
 									<Link href="/tarms">
 										<a className="text-accent">Terms of Service</a>
 									</Link>

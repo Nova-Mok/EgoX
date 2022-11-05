@@ -46,10 +46,10 @@ const BidsModal = () => {
 								<div className="border-jacarta-100 bg-jacarta-50 flex flex-1 items-center self-stretch border-r px-2">
 									<span>
 										<svg className="icon icon-ETH mr-1 h-5 w-5">
-											<use xlinkHref="/icons.svg#icon-ETH"></use>
+											<use xlinkHref="/avaxicon.svg#avax-icono"></use>
 										</svg>
 									</span>
-									<span className="font-display text-jacarta-700 text-sm">ETH</span>
+									<span className="font-display text-jacarta-700 text-sm">AVAX</span>
 								</div>
 
 								<input
@@ -66,7 +66,7 @@ const BidsModal = () => {
 							</div>
 
 							<div className="text-right">
-								<span className="dark:text-jacarta-400 text-sm">Balance: 0.0000 WETH</span>
+								<span className="dark:text-jacarta-400 text-sm">Balance: 0.0000 AVAX</span>
 							</div>
 
 							{/* <!-- Terms --> */}
@@ -77,7 +77,7 @@ const BidsModal = () => {
 									className="checked:bg-accent dark:bg-jacarta-600 text-accent border-jacarta-200 focus:ring-accent/20 dark:border-jacarta-500 h-5 w-5 self-start rounded focus:ring-offset-0"
 								/>
 								<label htmlFor="terms" className="dark:text-jacarta-200 text-sm">
-									By checking this box, I agree to {"Xhibiter's"}{' '}
+									By checking this box, I agree to {"EgoX's"}{' '}
 									<a href="#" className="text-accent">
 										Terms of Service
 									</a>

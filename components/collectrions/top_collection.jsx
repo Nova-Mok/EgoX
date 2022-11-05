@@ -157,7 +157,7 @@ const Top_collection = () => {
 												</span>
 											</a>
 										</Link>
-										<span className="dark:text-jacarta-300 text-sm">{amount} ETH</span>
+										<span className="dark:text-jacarta-300 text-sm">{amount} AVAX</span>
 									</div>
 								</div>
 							);

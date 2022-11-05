@@ -99,7 +99,7 @@ const ItemsTabs = () => {
 								</div>
 								<div className="flex items-center">
 									<span className="dark:text-jacarta-300 mr-2 min-w-[9rem]">Blockchain:</span>
-									<span className="text-jacarta-700 dark:text-white">Ethereum</span>
+									<span className="text-jacarta-700 dark:text-white">Avalanche</span>
 								</div>
 							</div>
 						</div>

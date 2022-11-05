@@ -39,7 +39,7 @@ const Collection_category_filter = () => {
 	const blockchainText = [
 		{
 			id: 1,
-			text: 'Ethereum',
+			text: 'Avalanche',
 		},
 		{
 			id: 2,

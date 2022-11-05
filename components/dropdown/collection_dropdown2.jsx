@@ -49,8 +49,8 @@ const Collection_dropdown2 = ({ data, collection }) => {
 					onClick={() => handleDropdown()}
 				>
 					<span className="flex items-center">
-						<img src="/images/chains/ETH.png" alt="eth" className="mr-2 h-5 w-5 rounded-full" />
-						Ethereum
+						<img src="/images/chains/avax.png" alt="eth" className="mr-2 h-5 w-5 rounded-full" />
+						Avalanche
 					</span>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

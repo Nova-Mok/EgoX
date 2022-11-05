@@ -45,7 +45,7 @@ const Index = () => {
 	const blockchainText = [
 		{
 			id: 1,
-			text: 'Ethereum',
+			text: 'Avalanche',
 		},
 		{
 			id: 2,
@@ -97,7 +97,7 @@ const Index = () => {
 
 	return (
 		<>
-			<Meta title="Rankings || Xhibiter | NFT Marketplace Next.js Template" />
+			<Meta title="Rankings || EgoX | NFT Marketplace" />
 			{/* <!-- Rankings --> */}
 			<section className="relative lg:mt-24 lg:pb-24 pb-24">
 				<picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
@@ -239,7 +239,7 @@ const Index = () => {
 											>
 												<span className="-ml-1" data-tippy-content="ETH">
 													<svg className="icon mr-1 h-4 w-4">
-														<use xlinkHref="/icons.svg#icon-ETH"></use>
+														<use xlinkHref="/avaxicon.svg#avax-icono"></use>
 													</svg>
 												</span>
 												<span className="text-sm font-medium tracking-tight">{volume}</span>
@@ -262,7 +262,7 @@ const Index = () => {
 											>
 												<span className="-ml-1" data-tippy-content="ETH">
 													<svg className="icon mr-1 h-4 w-4">
-														<use xlinkHref="/icons.svg#icon-ETH"></use>
+														<use xlinkHref="/avaxicon.svg#avax-icono"></use>
 													</svg>
 												</span>
 												<span className="text-sm font-medium tracking-tight">{price}</span>

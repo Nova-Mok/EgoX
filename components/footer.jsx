@@ -16,8 +16,8 @@ const footer = () => {
                 <a className="mb-6 inline-block">
                   <img
                     src="/images/logo.png"
-                    className="max-h-7 dark:hidden"
-                    alt="Xhibiter | NFT Marketplace"
+                    className="max-h-20 dark:hidden"
+                    alt="EgoX | NFT Marketplace"
                   />
                 </a>
               </Link>
@@ -26,14 +26,14 @@ const footer = () => {
                 <a className=" mb-6 inline-block">
                   <img
                     src="/images/logo_white.png"
-                    className="hidden max-h-7 dark:block mb-6"
-                    alt="Xhibiter | NFT Marketplace"
+                    className="hidden max-h-20 dark:block mb-6"
+                    alt="EgoX | NFT Marketplace"
                   />
                 </a>
               </Link>
               <p className="dark:text-jacarta-300 mb-12">
-                Create, sell and collect truly rare digital artworks. Powered by
-                blockchain technology.
+                Create, sell and collect truly awesome digital artworks. Powered by
+                EgoX.
               </p>
 
               {/* <!-- Socials --> */}
@@ -85,7 +85,7 @@ const footer = () => {
 
           <div className="flex flex-col items-center justify-between space-y-2 py-8 sm:flex-row sm:space-y-0">
             <span className="dark:text-jacarta-400 text-sm">
-              <span>© {new Date().getFullYear()} Xhibiter — Made by</span>
+              <span>© {new Date().getFullYear()} EgoX — Made by</span>
               <Link href="https://themeforest.net/user/ib-themes">
                 <a className="hover:text-accent dark:hover:text-white">
                   {" "}

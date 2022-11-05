@@ -122,10 +122,10 @@ const Activity_tab = () => {
 								>
 									<span className="-ml-1" data-tippy-content="ETH">
 										<svg className="icon mr-1 h-4 w-4">
-											<use xlinkHref="icons.svg#icon-ETH"></use>
+											<use xlinkHref="avaxicon.svg#avax-icono"></use>
 										</svg>
 									</span>
-									<span className="text-green text-sm font-medium tracking-tight">{price} ETH</span>
+									<span className="text-green text-sm font-medium tracking-tight">{price} AVAX</span>
 								</div>
 								<div
 									className="dark:border-jacarta-600 border-jacarta-100 flex w-[22%] items-center border-t py-4 px-4"

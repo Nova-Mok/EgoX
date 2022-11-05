@@ -36,7 +36,7 @@ const User = () => {
 
 	return (
 		<>
-			<Meta title="User || Xhibiter | NFT Marketplace Next.js Template" />
+			<Meta title="User || EgoX | NFT Marketplace" />
 			{/* <!-- Profile --> */}
 			{user_data
 				.filter((item) => item.id === pid)
@@ -88,7 +88,7 @@ const User = () => {
 										<div className="dark:bg-jacarta-700 dark:border-jacarta-600 border-jacarta-100 mb-8 inline-flex items-center justify-center rounded-full border bg-white py-1.5 px-4">
 											<Tippy content="ETH">
 												<svg className="icon h-4 w-4 mr-1">
-													<use xlinkHref="/icons.svg#icon-ETH"></use>
+													<use xlinkHref="/avaxicon.svg#avax-icono"></use>
 												</svg>
 											</Tippy>
 

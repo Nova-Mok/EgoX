@@ -68,11 +68,11 @@ const OfferTab = () => {
 								>
 									<span className="-ml-1" data-tippy-content="ETH">
 										<svg className="icon mr-1 h-4 w-4">
-											<use xlinkHref="/icons.svg#icon-ETH"></use>
+											<use xlinkHref="/avaxicon.svg#avax-icono"></use>
 										</svg>
 									</span>
 									<span className="text-green text-sm font-medium tracking-tight">
-										{ethPrice} ETH
+										{ethPrice} AVAX
 									</span>
 								</div>
 								<div

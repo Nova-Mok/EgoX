@@ -83,14 +83,14 @@ const Platform_status = () => {
 
 							<div className="mb-8">
 								<div className="dark:border-jacarta-600 border-jacarta-100 text-jacarta-700 mb-4 border-b pb-4 text-lg font-medium dark:text-white">
-									Apr 8, 2022
+									Nov 8, 2022
 								</div>
 								<p className="dark:text-jacarta-300">No incidents reported today.</p>
 							</div>
 
 							<div className="mb-8">
 								<div className="dark:border-jacarta-600 border-jacarta-100 text-jacarta-700 mb-4 border-b pb-4 text-lg font-medium dark:text-white">
-									Apr 7, 2022
+									Nov 7, 2022
 								</div>
 								<p className="dark:text-jacarta-300">No incidents reported today.</p>
 							</div>
@@ -104,7 +104,7 @@ const Platform_status = () => {
 
 							<div className="mb-8">
 								<div className="dark:border-jacarta-600 border-jacarta-100 text-jacarta-700 mb-4 border-b pb-4 text-lg font-medium dark:text-white">
-									Apr 5, 2022
+									Nov 5, 2022
 								</div>
 								<p className="text-orange-bright mb-4 font-medium">Database connectivity issues</p>
 								<div className="mb-6">
@@ -134,7 +134,7 @@ const Platform_status = () => {
 
 							<div className="mb-8">
 								<div className="dark:border-jacarta-600 border-jacarta-100 text-jacarta-700 mb-4 border-b pb-4 text-lg font-medium dark:text-white">
-									Apr 4, 2022
+									Nov 4, 2022
 								</div>
 								<p className="dark:text-jacarta-300">No incidents reported today.</p>
 							</div>

@@ -43,15 +43,15 @@ const Collection_category_filter = () => {
 		},
 		{
 			id: 2,
-			text: 'Polygon',
+			text: 'Solana',
 		},
 		{
 			id: 3,
-			text: 'Flow',
+			text: 'Hydera',
 		},
 		{
 			id: 4,
-			text: 'Tezos',
+			text: 'Kadena',
 		},
 	];
 	const categoryText = [

@@ -37,7 +37,7 @@ const Create = () => {
   const popupItemData = [
     {
       id: 1,
-      name: "proparties",
+      name: "Properties",
       text: "Textual traits that show up as rectangles.",
       icon: "proparties-icon",
     },

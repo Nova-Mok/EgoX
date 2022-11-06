@@ -9,55 +9,10 @@ const footer = () => {
 
       <footer className="dark:bg-jacarta-900 page-footer bg-white">
         <div className="container">
-          <div className="grid grid-cols-6 gap-x-7 gap-y-14 pt-24 pb-12 md:grid-cols-12">
-            <div className="col-span-3 md:col-span-4">
-              {/* <!-- Logo --> */}
-              <Link href="#">
-                <a className="mb-6 inline-block">
-                  <img
-                    src="/images/logo.png"
-                    className="max-h-20 dark:hidden"
-                    alt="EgoX | NFT Marketplace"
-                  />
-                </a>
-              </Link>
+          <div className="grid grid-cols-6 gap-x-4 gap-y-8 pt-8 pb-12 md:grid-cols-12">
+            
 
-              <Link href="#">
-                <a className=" mb-6 inline-block">
-                  <img
-                    src="/images/logo_white.png"
-                    className="hidden max-h-20 dark:block mb-6"
-                    alt="EgoX | NFT Marketplace"
-                  />
-                </a>
-              </Link>
-              <p className="dark:text-jacarta-300 mb-12">
-                Create, sell and collect truly awesome digital artworks. Powered by
-                EgoX.
-              </p>
-
-              {/* <!-- Socials --> */}
-              <div className="flex space-x-5">
-                {socialIcons.map((item) => {
-                  const { id, href, text } = item;
-                  return (
-                    <Link href={href} key={id}>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group cursor-pointer"
-                      >
-                        <svg className="icon group-hover:fill-accent fill-jacarta-300 h-5 w-5 dark:group-hover:fill-white">
-                          <use xlinkHref={`/icons.svg#icon-${text}`}></use>
-                        </svg>
-                      </a>
-                    </Link>
-                  );
-                })}
-              </div>
-            </div>
-
-            {footerMenuList.map((single) => (
+           {/* {footerMenuList.map((single) => (
               <div
                 className={`col-span-full sm:col-span-3 md:col-span-2 ${single.diffClass}`}
                 key={single.id}
@@ -80,19 +35,44 @@ const footer = () => {
                   })}
                 </ul>
               </div>
-            ))}
-          </div>
+            ))} */}
+          </div> 
 
-          <div className="flex flex-col items-center justify-between space-y-2 py-8 sm:flex-row sm:space-y-0">
+          <div className="flex flex-col items-center justify-between space-y-2 py-4 sm:flex-row sm:space-y-0">
             <span className="dark:text-jacarta-400 text-sm">
               <span>© {new Date().getFullYear()} EgoX — Made with</span>
-              <Link href="https://themeforest.net/user/ib-themes">
+              <Link href="https://">
                 <a className="hover:text-accent dark:hover:text-white">
                   {" "}
-                  ❤️
+                  ❤️ The EgoVerse LLC
                 </a>
               </Link>
             </span>
+
+            <ul className="dark:text-jacarta-400 flex flex-wrap space-x-4 text-sm">
+              <li>
+
+              <div className="flex space-x-5">
+                {socialIcons.map((item) => {
+                  const { id, href, text } = item;
+                  return (
+                    <Link href={href} key={id}>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group cursor-pointer"
+                      >
+                        <svg className="icon group-hover:fill-accent fill-jacarta-300 h-5 w-5 dark:group-hover:fill-white">
+                          <use xlinkHref={`/icons.svg#icon-${text}`}></use>
+                        </svg>
+                      </a>
+                    </Link>
+                  );
+                })}
+              </div>
+                
+              </li>
+              </ul>
 
             <ul className="dark:text-jacarta-400 flex flex-wrap space-x-4 text-sm">
               <li>

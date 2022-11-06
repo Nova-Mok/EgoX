@@ -1,4 +1,4 @@
-const footerMenuList = [
+/*const footerMenuList = [
   {
     id: 1,
     title: "Marketplace",
@@ -95,7 +95,7 @@ const footerMenuList = [
       },
     ],
   },
-];
+]; */
 
 const socialIcons = [
   {
@@ -125,4 +125,4 @@ const socialIcons = [
   },
 ];
 
-export { footerMenuList, socialIcons };
+export {  socialIcons }; 

@@ -122,6 +122,9 @@ const MblNavbar = ({ theme }) => {
 		if (router.asPath.includes('create')) {
 			localStorage.setItem('navItemValue', 33);
 		}
+		if (router.asPath.includes('swap')) {
+			localStorage.setItem('navItemValue', 34);
+		}
 
 		const value = localStorage.getItem('navItemValue');
 		setNavItemValue(+value);
@@ -136,7 +139,10 @@ const MblNavbar = ({ theme }) => {
 			setnavText('collection');
 		} else if (navItemValue === 33) {
 			setnavText('create');
+		} else if (navItemValue === 34) {
+			setnavText('swap');
 		}
+
 	}, [dispatch, navItemValue, router]);
 
 	const homenavData = [
@@ -897,6 +903,28 @@ const MblNavbar = ({ theme }) => {
 							</a>
 						</Link>
 					</li>
+
+					<li className="group">
+						<Link href="/swap">
+							<a
+								onClick={() => {
+									dispatch(closeMblMenu());
+									localStorage.setItem('navItemValue', 34);
+								}}
+							>
+								<button
+									className={
+										router.asPath === '/home/home_3'
+											? 'font-display hover:text-accent focus:text-accent flex items-center justify-between py-3.5 text-base lg:text-white text-jacarta-700 dark:text-white lg:px-5'
+											: 'text-jacarta-700 font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5'
+									}
+								>
+									<span className={navText === 'create' ? 'text-accent' : ''}>Swap</span>
+								</button>
+							</a>
+						</Link>
+					</li>
+					
 				</ul>
 			</nav>
 

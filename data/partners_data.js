@@ -19,39 +19,21 @@ const partners_data = [
 const works_data = [
 	{
 		id: '0Generate Revenue',
-		text: 'Generate Revenue',
-		icon: 'revenue',
-		title: 'Generate Revenue',
+		text: '$12,870',
+		image: 'revenue',
+		title: 'JOEPEGS',
 	},
 	{
 		id: '1Reach Millions',
-		text: 'Reach Millions',
-		icon: 'peoples',
-		title: 'Reach Millions',
+		text: '$2,648',
+		image: 'revenue',
+		title: 'NFTTRADE',
 	},
 	{
 		id: '2Spend Less',
-		text: 'Spend Less',
-		icon: 'wallet',
-		title: 'Spend Less',
-	},
-	{
-		id: '3Gas-free Marketplace',
-		text: 'Gas-free Marketplace',
-		icon: 'gas-free',
-		title: 'Gas-free Marketplace',
-	},
-	{
-		id: '4Advertise EgoX',
-		text: 'Advertise EgoX',
-		icon: 'advertise',
-		title: 'Advertise EgoX',
-	},
-	{
-		id: '5Earn 20% Commission Per Sale!',
-		text: 'Earn 20% Commission Per Sale!',
-		icon: 'commission',
-		title: 'Earn 20% Commission Per Sale!',
+		text: '$826',
+		image: 'revenue',
+		title: 'CAMPFIRE',
 	},
 ];
 

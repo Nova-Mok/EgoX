@@ -291,6 +291,11 @@ const MblNavbar = ({ theme }) => {
 
 	const resourcesData = [
 		{
+			id: 31,
+			text: 'Analytic',
+			href: '/partners',
+		},
+		{
 			id: 25,
 			text: 'Help Center',
 			href: '/help_center',

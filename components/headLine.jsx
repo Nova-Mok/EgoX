@@ -16,9 +16,7 @@ const headLine = ({ text, classes, image, pera }) => {
       </h2>
       {pera && (
         <p className="dark:text-jacarta-300 mt-6">
-          While we take pride in being the first and largest marketplace and in
-          our robust feature set, we also help our partners succeed with the
-          following...
+          Live statistics across the board
         </p>
       )}
     </div>

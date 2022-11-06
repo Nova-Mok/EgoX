@@ -36,6 +36,7 @@ module.exports = {
       jacarta: {
         base: "#5A5D79",
         50: "#F4F4F6",
+        80: "#00FF00",
         100: "#E7E8EC",
         200: "#C4C5CF",
         300: "#A1A2B3",

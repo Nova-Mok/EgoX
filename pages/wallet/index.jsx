@@ -1,6 +1,7 @@
 import React from 'react';
 import ImageTitle from '../../components/imageTitle';
 import { wallet_data } from '../../data/wallet_data';
+import { upline_data } from '../../data/wallet_data';
 import Link from 'next/link';
 import Head from 'next/head';
 import Meta from '../../components/Meta';
@@ -9,7 +10,7 @@ const Wallet = () => {
 	const bgImage = '/images/page-title/wallet_banner.jpg';
 	return (
 		<div>
-			<Meta title="Wallet || EgoX | NFT Marketplace" />
+			<Meta title="EgoX | NFT Marketplace" />
 			<div className="pt-[5.5rem] lg:pt-24">
 				{/* <!-- Wallet --> */}
 
@@ -21,7 +22,7 @@ const Wallet = () => {
 					</picture>
 					<div className="container">
 						<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-[1.875rem]">
-							{wallet_data.map((item) => {
+							{upline_data.map((item) => {
 								const { id, image, title, text } = item;
 								return (
 									<Link href="#" key={id}>

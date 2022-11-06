@@ -43,12 +43,12 @@ export const EthereumDropdown2_data = [
 	},
 	{
 		id: '1Flow',
-		text: 'Flow',
+		text: 'Solana',
 		image: '/images/chains/FLOW.png',
 	},
 	{
 		id: '2FUSD',
-		text: 'FUSD',
+		text: 'Hydera',
 		image: '/images/chains/FUSD.png',
 	},
 ];

@@ -49,15 +49,15 @@ const Index = () => {
 		},
 		{
 			id: 2,
-			text: 'Polygon',
+			text: 'Solana',
 		},
 		{
 			id: 3,
-			text: 'Flow',
+			text: 'Kadena',
 		},
 		{
 			id: 4,
-			text: 'Tezos',
+			text: 'Hydera',
 		},
 	];
 	const last7DaysRanks = [

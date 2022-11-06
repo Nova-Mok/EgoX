@@ -113,14 +113,14 @@ const Recently_added_dropdown = ({ data, dropdownFor }) => {
 			id: 1,
 			text: 'Verified Only',
 		},
-		{
+		/*{
 			id: 2,
 			text: 'NFSW Only',
 		},
 		{
 			id: 3,
 			text: 'Show Lazy Minted',
-		},
+		},*/
 	];
 
 	const handleInput = (e, text) => {
@@ -485,19 +485,19 @@ const Recently_added_dropdown = ({ data, dropdownFor }) => {
 			{
 				id: 2,
 				image: '/images/chains/FLOW.png',
-				text: 'FLOW',
+				text: 'Solana',
 			},
 			{
 				id: 3,
 				image: '/images/chains/FUSD.png',
-				text: 'FUSD',
+				text: 'Hedera',
 			},
 			{
 				id: 4,
 				image: '/images/chains/XTZ.png',
-				text: 'XTZ',
+				text: 'Kadena',
 			},
-			{
+			/*{
 				id: 5,
 				image: '/images/chains/DAI.png',
 				text: 'DAI',
@@ -506,7 +506,7 @@ const Recently_added_dropdown = ({ data, dropdownFor }) => {
 				id: 6,
 				image: '/images/chains/RARI.png',
 				text: 'RARI',
-			},
+			}, */
 		];
 		return (
 			<div className="my-1 mr-2.5">

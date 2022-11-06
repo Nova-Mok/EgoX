@@ -49,7 +49,7 @@ const rankings_data = [
 		category: 'Domain',
 
 		category: 'Virtual World',
-		blockchain: 'Flow',
+		blockchain: 'SOL',
 		postDate: 'Last 30 Days',
 	},
 	{
@@ -121,7 +121,7 @@ const rankings_data = [
 		category: 'art',
 
 		category: 'Collectibles',
-		blockchain: 'Flow',
+		blockchain: 'Solana',
 		postDate: 'Last 14 Days',
 	},
 
@@ -197,7 +197,7 @@ const rankings_data = [
 
 		postDate: 'Last 90 Days',
 		category: 'Virtual World',
-		blockchain: 'Flow',
+		blockchain: 'Solana',
 		postDate: 'Last 7 Days',
 	},
 	{
@@ -275,7 +275,7 @@ const rankings_data = [
 
 		postDate: 'Last 90 Days',
 		category: 'Domain',
-		blockchain: 'Flow',
+		blockchain: 'Kadena',
 		postDate: 'Last 90 Days',
 	},
 	{
@@ -349,7 +349,7 @@ const rankings_data = [
 		h24Color: 'red',
 		d7Color: 'green',
 		category: 'Virtual World',
-		blockchain: 'Flow',
+		blockchain: 'Hydera',
 		postDate: 'Last 60 Days',
 	},
 	{

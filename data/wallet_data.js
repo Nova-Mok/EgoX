@@ -37,4 +37,25 @@ const wallet_data = [
 	},
 ];
 
-export { wallet_data };
+const upline_data = [
+	{
+		id: '0Metamask',
+		image: '/images/verify.png',
+		title: 'Verification',
+		text: 'Apply for verification for your awesome NFT collection and get the verified badge for it.',
+	},
+	{
+		id: '1Coinbase',
+		image: '/images/rocket.png',
+		title: 'Launchpad',
+		text: 'Let the community know about your awesome upcoming NFT collections via Launchpad.',
+	},
+	{
+		id: '2Bitski',
+		image: '/images/usrs.png',
+		title: 'Community',
+		text: 'More... Join our awesome community of creators and collectors and have fun inside!',
+	},
+];
+
+export { wallet_data , upline_data};

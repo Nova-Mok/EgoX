@@ -57,7 +57,7 @@ const Index = () => {
 		},
 		{
 			id: 4,
-			text: 'Hydera',
+			text: 'Hashgraph Hedera',
 		},
 	];
 	const last7DaysRanks = [

@@ -349,7 +349,7 @@ const rankings_data = [
 		h24Color: 'red',
 		d7Color: 'green',
 		category: 'Virtual World',
-		blockchain: 'Hydera',
+		blockchain: 'Hashgraph Hedera',
 		postDate: 'Last 60 Days',
 	},
 	{

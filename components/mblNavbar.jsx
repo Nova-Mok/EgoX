@@ -18,7 +18,7 @@ import  Recently_added_dropdown  from '../components/dropdown/recently_added_dro
 		},
 		{
 			id: 3,
-			text: 'Hydera',
+			text: 'Hashgraph Hedera',
 		},
 		{
 			id: 4,

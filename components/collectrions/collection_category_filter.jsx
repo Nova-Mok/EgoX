@@ -47,7 +47,7 @@ const Collection_category_filter = () => {
 		},
 		{
 			id: 3,
-			text: 'Hydera',
+			text: 'Hashgraph Hedera',
 		},
 		{
 			id: 4,

@@ -48,7 +48,7 @@ export const EthereumDropdown2_data = [
 	},
 	{
 		id: '2FUSD',
-		text: 'Hydera',
+		text: 'Hashgraph Hedera',
 		image: '/images/chains/FUSD.png',
 	},
 ];

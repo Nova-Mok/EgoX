@@ -16,12 +16,11 @@ const Home_1 = () => {
 		<main>
 			<Meta title=" EgoX | NFT Marketplace" />
 			<Hero />
-			<Hero_6 />
 			<Bids />
 			<Top_collection />
 			<section className="dark:bg-jacarta-800 relative pb-20 pt-28">
 					<picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-						<img src="images/gradient_light.jpg" alt="gradient" className="h-full w-full" />
+						<img src="images/gradient_light.jpg" alt="." className="h-full w-full" />
 					</picture>
 					<div className="container">
 						<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-[1.875rem]">

@@ -119,7 +119,7 @@ const Edit_user = () => {
 										id="profile-bio"
 										className="dark:bg-jacarta-700 border-jacarta-100 hover:ring-accent/10 focus:ring-accent dark:border-jacarta-600 dark:placeholder:text-jacarta-300 w-full rounded-lg py-3 hover:ring-2 dark:text-white px-3"
 										required
-										placeholder="Tell the world your story!"
+										placeholder="Tell the world about yourself."
 									></textarea>
 								</div>
 								<div className="mb-6">
@@ -155,7 +155,7 @@ const Edit_user = () => {
 											type="text"
 											id="profile-twitter"
 											className="dark:bg-jacarta-700 border-jacarta-100 hover:ring-accent/10 focus:ring-accent dark:border-jacarta-600 dark:placeholder:text-jacarta-300 w-full rounded-t-lg py-3 pl-10 hover:ring-2 focus:ring-inset dark:text-white"
-											placeholder="@twittername"
+											placeholder="@twitter"
 										/>
 									</div>
 									<div className="relative">
@@ -175,7 +175,7 @@ const Edit_user = () => {
 											type="text"
 											id="profile-instagram"
 											className="dark:bg-jacarta-700 border-jacarta-100 hover:ring-accent/10 focus:ring-accent dark:border-jacarta-600 dark:placeholder:text-jacarta-300 -mt-px w-full py-3 pl-10 hover:ring-2 focus:ring-inset dark:text-white"
-											placeholder="instagramname"
+											placeholder="instagram"
 										/>
 									</div>
 									<div className="relative">
@@ -193,7 +193,25 @@ const Edit_user = () => {
 											type="url"
 											id="profile-website"
 											className="dark:bg-jacarta-700 border-jacarta-100 hover:ring-accent/10 focus:ring-accent dark:border-jacarta-600 dark:placeholder:text-jacarta-300 -mt-px w-full rounded-b-lg py-3 pl-10 hover:ring-2 focus:ring-inset dark:text-white"
-											placeholder="yoursitename.com"
+											placeholder="website"
+										/>
+									</div>
+									<div className="relative">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											viewBox="0 0 24 24"
+											width="24"
+											height="24"
+											className="fill-jacarta-300 dark:fill-jacarta-400 pointer-events-none absolute top-1/2 left-4 h-4 w-4 -translate-y-1/2"
+										>
+											<path fill="none" d="M0 0h24v24H0z" />
+											<path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-2.29-2.333A17.9 17.9 0 0 1 8.027 13H4.062a8.008 8.008 0 0 0 5.648 6.667zM10.03 13c.151 2.439.848 4.73 1.97 6.752A15.905 15.905 0 0 0 13.97 13h-3.94zm9.908 0h-3.965a17.9 17.9 0 0 1-1.683 6.667A8.008 8.008 0 0 0 19.938 13zM4.062 11h3.965A17.9 17.9 0 0 1 9.71 4.333 8.008 8.008 0 0 0 4.062 11zm5.969 0h3.938A15.905 15.905 0 0 0 12 4.248 15.905 15.905 0 0 0 10.03 11zm4.259-6.667A17.9 17.9 0 0 1 15.973 11h3.965a8.008 8.008 0 0 0-5.648-6.667z" />
+										</svg>
+										<input
+											type="url"
+											id="profile-website"
+											className="dark:bg-jacarta-700 border-jacarta-100 hover:ring-accent/10 focus:ring-accent dark:border-jacarta-600 dark:placeholder:text-jacarta-300 -mt-px w-full rounded-b-lg py-3 pl-10 hover:ring-2 focus:ring-inset dark:text-white"
+											placeholder="Discord"
 										/>
 									</div>
 								</div>
@@ -249,7 +267,7 @@ const Edit_user = () => {
 										Profile Image
 									</span>
 									<p className="dark:text-jacarta-300 text-sm leading-normal">
-										We recommend an image of at least 300x300. Gifs work too. Max 5mb.
+									We recommend uploading images or gifs with pixel sizes of 400x400.
 									</p>
 								</div>
 							</div>

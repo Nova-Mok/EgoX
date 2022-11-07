@@ -51,7 +51,7 @@ const MblNavbar = ({ theme }) => {
 			}
 		});
 
-		if (router.asPath === '/home/home_1') {
+		if (router.asPath === '/home') {
 			localStorage.setItem('navItemValue', 1);
 		}
 		if (router.asPath === '/home/home_2') {

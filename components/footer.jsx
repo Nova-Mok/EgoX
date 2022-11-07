@@ -40,11 +40,11 @@ const footer = () => {
 
           <div className="flex flex-col items-center justify-between space-y-2 py-4 sm:flex-row sm:space-y-0">
             <span className="dark:text-jacarta-400 text-sm">
-              <span>© {new Date().getFullYear()} EgoX — Made with</span>
+              <span>© {new Date().getFullYear()} EgoX — </span>
               <Link href="https://">
                 <a className="hover:text-accent dark:hover:text-white">
                   {" "}
-                  ❤️ The EgoVerse LLC
+                   The EgoVerse LLC
                 </a>
               </Link>
             </span>

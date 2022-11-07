@@ -32,7 +32,7 @@ const tranding_category_filter = [
   {
     id: 6,
     svg: "world",
-    text: "virtual world",
+    text: "Utility",
   },
 ];
 

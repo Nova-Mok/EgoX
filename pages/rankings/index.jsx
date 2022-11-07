@@ -39,7 +39,7 @@ const Index = () => {
 		},
 		{
 			id: 7,
-			text: 'Virtual World',
+			text: 'Utility',
 		},
 	];
 	const blockchainText = [

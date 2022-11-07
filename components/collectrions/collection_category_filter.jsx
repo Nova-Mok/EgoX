@@ -81,7 +81,7 @@ const Collection_category_filter = () => {
 		},
 		{
 			id: 7,
-			text: 'Virtual World',
+			text: 'Utility',
 		},
 	];
 	const saleTypeText = [
@@ -386,7 +386,7 @@ const Collection_category_filter = () => {
 										href="#"
 										className="dropdown-item font-display dark:hover:bg-jacarta-600 hover:bg-jacarta-50 flex w-full items-center rounded-xl px-5 py-2 text-left text-sm transition-colors dark:text-white"
 									>
-										Virtual World
+										Utility
 									</a>
 								</li>
 							</ul>

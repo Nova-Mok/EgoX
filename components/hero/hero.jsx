@@ -23,11 +23,10 @@ const hero = () => {
         <div className="grid h-full items-center gap-4 md:grid-cols-12">
           <div className="col-span-6 flex h-full flex-col items-center justify-center py-10 md:items-start md:py-20 xl:col-span-4">
             <h1 className="text-jacarta-700 font-bold font-display mb-6 text-center text-5xl dark:text-white md:text-left lg:text-6xl xl:text-7xl">
-              Buy, sell and collect NFTs.
+            Buy, Sell And Trade NFTs.
             </h1>
             <p className="dark:text-jacarta-200 mb-8 text-center text-lg md:text-left">
-              The digital marketplace for crypto collectibles and awesome
-              non-fungible tokens
+            EgoX is a community-driven multichain marketplace.
             </p>
             <div className="flex space-x-4">
               <Link href="/create">
@@ -49,7 +48,7 @@ const hero = () => {
               <img
                 src="/images/hero/9992.png"
                 alt=""
-                className="hero-img mt-8 inline-block w-72 rotate-[8deg] sm:w-full lg:w-[24rem] xl:w-[35rem]"
+                className="hero-img mt-4 inline-block w-12 rotate-[8deg] sm:w-full lg:w-[24rem] xl:w-[35rem]"
               />
               <img
                 src="/images/hero/"

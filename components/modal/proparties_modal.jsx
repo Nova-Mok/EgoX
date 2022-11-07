@@ -57,7 +57,7 @@ const Proparties_modal = () => {
 
 								<div className="flex-1">
 									<label className="font-display text-jacarta-700 mb-3 block text-base font-semibold dark:text-white">
-										Type
+										Name
 									</label>
 									<input
 										type="text"
@@ -68,7 +68,7 @@ const Proparties_modal = () => {
 
 								<div className="flex-1">
 									<label className="font-display text-jacarta-700 mb-3 block text-base font-semibold dark:text-white">
-										Name
+									   Description
 									</label>
 									<input
 										type="text"

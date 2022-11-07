@@ -41,7 +41,7 @@ const Create = () => {
       text: "Textual traits that show up as rectangles.",
       icon: "proparties-icon",
     },
-    {
+    /*{
       id: 2,
       name: "levels",
       text: "Numerical traits that show as a progress bar.",
@@ -52,7 +52,7 @@ const Create = () => {
       name: "stats",
       text: "Numerical traits that just show as numbers.",
       icon: "stats-icon",
-    },
+    }, */
   ];
   return (
     <div>
@@ -321,6 +321,11 @@ const Create = () => {
               >
                 Blockchain
               </label>
+              <div className="mb-3 flex items-center space-x-2">
+                <p className="dark:text-jacarta-300 text-2xs">
+                Choose which blockchain you would like to deploy this NFT on.
+                </p>
+              </div>
 
               {/* dropdown */}
               <div className="dropdown relative mb-4 cursor-pointer ">

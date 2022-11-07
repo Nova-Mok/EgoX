@@ -190,7 +190,7 @@ const Collection_category_filter = () => {
 			<div className="mb-8 flex flex-wrap items-center justify-between">
 				<div className="flex flex-wrap items-center">
 					{/* <!-- Blockchain --> */}
-					<Recently_added_dropdown data={blockchainText} dropdownFor="blockchain" />
+					
 
 					{/* <!-- Category --> */}
 					<Recently_added_dropdown data={categoryText} dropdownFor="category" />

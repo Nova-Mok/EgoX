@@ -47,12 +47,12 @@ const hero = () => {
           <div className="col-span-6 xl:col-span-8">
             <div className="relative text-center md:pl-8 md:text-right">
               <img
-                src="/images/hero/hero.jpg"
+                src="/images/hero/9992.png"
                 alt=""
                 className="hero-img mt-8 inline-block w-72 rotate-[8deg] sm:w-full lg:w-[24rem] xl:w-[35rem]"
               />
               <img
-                src="/images/hero/3D_elements.png"
+                src="/images/hero/"
                 alt=""
                 className="animate-fly absolute top-0 md:-right-[10%]"
               />

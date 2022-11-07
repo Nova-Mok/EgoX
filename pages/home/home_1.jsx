@@ -8,6 +8,7 @@ import {
 	Tranding_category,
 	NewseLatter,
 } from '../../components/component';
+import Hero_6 from '../../components/hero/hero_6';
 import Meta from '../../components/Meta';
 
 const Home_1 = () => {
@@ -15,6 +16,7 @@ const Home_1 = () => {
 		<main>
 			<Meta title=" EgoX | NFT Marketplace" />
 			<Hero />
+			<Hero_6 />
 			<Bids />
 			<Top_collection />
 			<section className="dark:bg-jacarta-800 relative pb-20 pt-28">

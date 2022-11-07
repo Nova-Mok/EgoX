@@ -27,7 +27,7 @@ const Home_1 = () => {
 							{upline_data.map((item) => {
 								const { id, image, title, text } = item;
 								return (
-									<Link href="#" key={id}>
+									<Link href="https://docs.google.com/forms/d/e/1FAIpQLSczNNSR30wn4JYId1-lMvERxjItI_0_3QP6BeVS-A7AJyjOHA/viewform" key={id}>
 										<a className="dark:bg-jacarta-700 dark:border-jacarta-600 border-jacarta-100 rounded-2.5xl mb-8 border bg-white p-8 text-center transition-shadow hover:shadow-lg">
 											<img
 												src={image}

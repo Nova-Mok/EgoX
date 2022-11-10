@@ -34,6 +34,23 @@ const Collection_dropdown = () => {
 			id: 3,
 			text: 'recent',
 		},
+		{
+			id: 4,
+			text: 'Price: Low to High',
+		},
+		{
+			id: 5,
+			text: 'Price: High to Low',
+		},
+		{
+			id: 6,
+			text: 'Rarity: Rare to Common',
+		},
+		{
+			id: 7,
+			text: 'Rarity: Common to Rare',
+		},
+
 	];
 	return (
 		<>

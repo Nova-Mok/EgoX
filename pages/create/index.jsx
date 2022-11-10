@@ -210,11 +210,8 @@ const Create = () => {
               </div>
 
               {/* dropdown */}
-              <div className="dropdown my-1 cursor-pointer">
-                <Collection_dropdown2
-                  data={collectionDropdown2_data}
-                  collection={true}
-                />
+              <div className="dropdown relative mb-4 cursor-pointer ">
+                <Collection_dropdown2 data={collectionDropdown2_data} />
               </div>
             </div>
 
